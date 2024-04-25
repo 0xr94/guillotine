@@ -93,7 +93,10 @@ try:
         ntlmAuth = parser.ntlm.split(":")
         auth = HttpNtlmAuth(ntlmAuth[0], "".join(ntlmAuth[1:]))
 
-    headers = {}
+    headers = {
+    "User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    }
+    
     if( parser.headers ):
         headersToInclude = parser.headers.split("|")
         for oneHeaderToInclude in headersToInclude:

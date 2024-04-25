@@ -2,6 +2,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [2.2.31] - 2024-04-25
+### Added
+
+### Changed
+- Header udpated to include User-Agent set to Windows Chrome Default.
+
+### Fixed
+- Error in sites requiring user agent.
+
 ## [2.2.3] - 2023-12-27
  
 ### Added
